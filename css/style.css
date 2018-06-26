@@ -2,7 +2,7 @@
 
 a {
   color: #DE1E24;
-  font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   text-decoration: none;
 }
 
@@ -46,12 +46,16 @@ aside {
   }
 }
 
+aside a {
+  font-size: 14px;
+}
+
 aside h1 {
   color: #C7C7C7;
 }
 
 body {
-  font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
 footer,
@@ -149,7 +153,8 @@ main {
 }
 
 p {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
 }
 
 .container {
@@ -178,7 +183,7 @@ p {
 .leading::first-letter {
   color: #C7C7C7;
   float: left;
-  font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   font-size: 600%;
   font-weight: 300;
   margin-bottom: -0.1em;
