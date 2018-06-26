@@ -184,11 +184,11 @@ p {
   color: #B4B4B4;
   float: left;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-  font-size: 600%;
+  font-size: 400%;
   font-weight: 300;
-  margin-bottom: -0.1em;
-  margin-right: .1em;
-  margin-top: -0.2em;
+  margin-bottom: -10px;
+  margin-right: 10px;
+  margin-top: -10px;
 }
 
 .read-more {
