@@ -14,7 +14,7 @@ section {
 
 article,
 section:not(:last-child) {
-  border-bottom: 1px solid #C7C7C7;
+  border-bottom: 1px solid #B4B4B4;
 }
 
 article a,
@@ -29,7 +29,7 @@ article h1 {
 }
 
 article time {
-  color: #C7C7C7;
+  color: #B4B4B4;
   font-size: 28px;
   font-weight: 300;
 }
@@ -51,7 +51,7 @@ aside a {
 }
 
 aside h1 {
-  color: #C7C7C7;
+  color: #777777;
 }
 
 body {
@@ -84,7 +84,7 @@ footer a {
 }
 
 footer a + a {
-  border-left: 1px solid #C7C7C7;
+  border-left: 1px solid #B4B4B4;
 }
 
 footer nav {
@@ -115,7 +115,7 @@ header h1 {
 }
 
 header h1 small {
-  color: #C7C7C7;
+  color: #B4B4B4;
 }
 
 header nav {
@@ -176,12 +176,12 @@ p {
 }
 
 .copyright {
-  color: #C7C7C7;
+  color: #B4B4B4;
   padding-bottom: 20px;
 }
 
 .leading::first-letter {
-  color: #C7C7C7;
+  color: #B4B4B4;
   float: left;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   font-size: 600%;
