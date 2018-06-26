@@ -2,6 +2,7 @@
 
 a {
   color: #DE1E24;
+  font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
   text-decoration: none;
 }
 
@@ -21,6 +22,18 @@ article a,
   font-weight: 600;
 }
 
+article h1 {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+article time {
+  color: #C7C7C7;
+  font-size: 28px;
+  font-weight: 300;
+}
+
 aside {
   width: 100%;
 }
@@ -31,6 +44,10 @@ aside {
     margin-left: 10px;
     width: 30%;
   }
+}
+
+aside h1 {
+  color: #C7C7C7;
 }
 
 body {
