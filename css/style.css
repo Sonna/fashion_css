@@ -158,6 +158,17 @@ p {
   padding-bottom: 20px;
 }
 
+.leading::first-letter {
+  color: #C7C7C7;
+  float: left;
+  font-family: 'Raleway', 'Helvetica', 'Arial', sans-serif;
+  font-size: 600%;
+  font-weight: 300;
+  margin-bottom: -0.1em;
+  margin-right: .1em;
+  margin-top: -0.2em;
+}
+
 .read-more {
   text-align: right;
 }
