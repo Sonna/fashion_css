@@ -5,6 +5,17 @@ a {
   text-decoration: none;
 }
 
+article,
+section {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+article,
+section:not(:last-child) {
+  border-bottom: 1px solid #C7C7C7;
+}
+
 article a,
 .about-us a {
   font-weight: 600;
@@ -18,9 +29,7 @@ aside {
   aside {
     align-self: flex-start;
     margin-left: 10px;
-    /*margin: 10px;*/
-    /*padding: 20px;*/
-    width: 40%;
+    width: 30%;
   }
 }
 
@@ -118,9 +127,7 @@ main {
 @media only screen and (min-width: 800px) {
   main {
     margin-right: 10px;
-    /*margin: 10px;*/
-    /*padding: 20px;*/
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -149,4 +156,8 @@ p {
 .copyright {
   color: #C7C7C7;
   padding-bottom: 20px;
+}
+
+.read-more {
+  text-align: right;
 }
