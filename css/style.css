@@ -2,11 +2,26 @@
 
 a {
   color: #DE1E24;
+  text-decoration: none;
 }
 
 article a,
 .about-us a {
   font-weight: 600;
+}
+
+aside {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  aside {
+    align-self: flex-start;
+    margin-left: 10px;
+    /*margin: 10px;*/
+    /*padding: 20px;*/
+    width: 40%;
+  }
 }
 
 body {
@@ -19,6 +34,20 @@ header,
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 800px) {
+  footer {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  footer {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}
+
 footer a {
   padding-left: 4px;
   padding-right: 2px;
@@ -26,6 +55,28 @@ footer a {
 
 footer a + a {
   border-left: 1px solid #C7C7C7;
+}
+
+footer nav {
+  margin-bottom: 20px;
+}
+
+header {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  header {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
 }
 
 header h1 {
@@ -60,10 +111,42 @@ img {
   width: 100%;
 }
 
+main {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  main {
+    margin-right: 10px;
+    /*margin: 10px;*/
+    /*padding: 20px;*/
+    width: 60%;
+  }
+}
+
 p {
   font-family: 'Times New Roman', serif;
 }
 
+.container {
+  margin: 30px auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    display: flex;
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
 .copyright {
   color: #C7C7C7;
+  padding-bottom: 20px;
 }
